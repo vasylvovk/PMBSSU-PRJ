@@ -9,14 +9,14 @@ public class Store {
     int square;
     String storeName;
     String adress;
-    String FPR; //financially responsible person
+    String FRP; //financially responsible person
     static TreeSet<Prodact> goods = new TreeSet<>();
 
-    public Store(int square, String storeName, String adress, String MOL) {
+    public Store(int square, String storeName, String adress, String FRP) {
         this.square = square;
         this.storeName = storeName;
         this.adress = adress;
-        this.FRP = MOL;
+        this.FRP = FRP;
     }
 
 
