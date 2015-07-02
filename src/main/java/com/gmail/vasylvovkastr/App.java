@@ -1,5 +1,6 @@
 package com.gmail.vasylvovkastr;
 
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -20,6 +21,5 @@ public class App {
         store00.addNewProdact(cookie02);
 
         System.out.println(store00.toString());
-
     }
 }

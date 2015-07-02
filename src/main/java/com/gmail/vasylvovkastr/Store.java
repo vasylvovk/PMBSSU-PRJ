@@ -9,23 +9,23 @@ public class Store {
     int square;
     String storeName;
     String adress;
-    String MOL;
+    String FPR; //financially responsible person
     static TreeSet<Prodact> goods = new TreeSet<>();
 
     public Store(int square, String storeName, String adress, String MOL) {
         this.square = square;
         this.storeName = storeName;
         this.adress = adress;
-        this.MOL = MOL;
+        this.FRP = MOL;
     }
 
 
-    public String getMOL() {
-        return MOL;
+    public String getFRP() {
+        return FRP;
     }
 
     public boolean setMOL(String MOL) {
-        this.MOL = MOL;
+        this.FRP = MOL;
         return true;
     }
 
