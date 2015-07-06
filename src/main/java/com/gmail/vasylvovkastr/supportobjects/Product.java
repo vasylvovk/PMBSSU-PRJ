@@ -1,5 +1,7 @@
 package com.gmail.vasylvovkastr.supportobjects;
 
+import java.util.Date;
+
 public class Product {
 
     private String productName;
