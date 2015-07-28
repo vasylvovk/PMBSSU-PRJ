@@ -7,7 +7,7 @@
     <session-factory>
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/Shop</property>
+        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/test</property>
         <property name="connection.username">root</property>
         <property name="connection.password">qwerty</property>
         
@@ -28,8 +28,9 @@
         
         <property name="hbm2ddl.auto">validate</property>
  
- 		<mapping class="com.gmail.vasylvovkastr.supportobjects.User"/>
- 		
- 		 
+        <mapping class="com.gmail.vasylvovkastr.supportobjects.User"/>
+        <mapping class="com.gmail.vasylvovkastr.supportobjects.Product"/>
+        <!--mapping resource="/home/vasyl/IdeaProjects/PMBSSU-PRJ/src/main/java/com/gmail/vasylvovkastr/supportobjects/User.hbm.xml/main/java/com/gmail/vasylvovkastr/supportobjects/User.hbm.xml"/-->
     </session-factory>
 </hibernate-configuration>
+
