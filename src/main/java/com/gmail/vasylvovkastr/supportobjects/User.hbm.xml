@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gmail.vasylvovkastr.supportobjects">
+
+    <class name="User" table="user">
+ 		<id name="idUser" column="pkUser">
+            <generator class="native"/>
+        </id>
+        <property name="userName" column="name" />
+        <property name="login" column="login"/>
+        <property name="password" type="date" column="password"/>
+        <property name="email" column="emeil"/>
+        <property name="email" column="emeil"/>
+        <property name="userType" column="role"/>
+	</class>
+
+</hibernate-mapping>
